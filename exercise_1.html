@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try To Create the Following Form</title>
+</head>
+<body>
+    <form action="LATIHAN_2.html" method="get">
+        <center>
+            <h1>AMALI HTML</h1>
+            <table border="2" style="text-align: justify;">
+                <tr>
+                    <th colspan="2" style="text-align: center;">USER FORM</th>
+                </tr>
+                <tr>
+                    <th>Enter Name</th>
+                    <td>
+                        <input type="name" name="name" id="student" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th>Enter Password</th>
+                    <td>
+                        <input type="password" name="password" id="password" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th>Enter Address</th>
+                    <td>
+                        <textarea name="alamat" id="rumah" cols="30" rows="10" required></textarea>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th>Select Game</th>
+                    <td>
+                        <input type="checkbox" name="sukan" id="bola" value="hockey" checked>
+                        <label for="hockey">Hockey</label><br>
+    
+                        <input type="checkbox" name="sukan" id="bola" value="sepak">
+                        <label for="football">Football</label><br>
+    
+                        <input type="checkbox" name="sukan" id="bola" value="badminton">
+                        <label for="badminton">Badminton</label><br>
+    
+                        <input type="checkbox" name="sukan" id="bola" value="criket">
+                        <label for="criket">Criket</label><br>
+    
+                        <input type="checkbox" name="sukan" id="bola" value="volleyball">
+                        <label for="volleyball">Volleyball</label><br>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <input type="radio" name="gender" id="gender" value="boy">
+                        <label for="gender">Male</label><br>
+    
+                        <input type="radio" name="gender" id="gender" value="girl">
+                        <label for="gender">Female</label>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th>Select ur age</th>
+                    <td>
+                        <select name="age" id="age">
+                            <option value="Select" name="pilih" selected disabled>Select</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25+">25+</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th colspan="2" style="text-align: center;"><input type="file" name="fail" id="fail"></th>
+                </tr>
+    
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Click Me" >
+                    <input type="submit" value="Submit Form" onclick="alert('ASSIGNMENT SETERUSNYA &#128517')">
+                    <input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </center>
+        </form>
+</body>
+</html>
